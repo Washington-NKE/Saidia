@@ -167,7 +167,7 @@ export default function SignInPage() {
                     <Input
                       id="signup-name"
                       type="text"
-                      placeholder="John Doe"
+                      placeholder="Washington Macharia"
                       value={signUpData.fullName}
                       onChange={(e) =>
                         setSignUpData({ ...signUpData, fullName: e.target.value })
